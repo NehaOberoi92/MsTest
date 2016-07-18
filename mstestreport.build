@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="prosoft" default="compile" xmlns="http://nant.sourceforge.net/nightly/latest/nant.xsd">
+  <!-- - - - - - - - - - - - - - -->
+  <!-- Properties initialisieren -->
+  <!-- - - - - - - - - - - - - - -->
+  <!-- debug variable um alles im buildscript ausprobieren zu können, kann auch auf der commandline angegeben werden: -D:debug=(true|false) -->
+  <property name="debug" value="false" overwrite="false" />
+  <!-- global setting for msbuild verbosity = q[uiet], m[inimal], n[ormal], d[etailed], diag[nostic] -->
+  <property name="msbuild.verbosity" value="quiet" />
+  <!-- build-configuration = Release, Debug -->
+  <property name="build.configuration" value="Release" />
+  <!-- solution to build -->
+  <property name="solutionfile" value="MSTestReport.sln" />
+  <property name="nant.settings.currentframework" value="net-4.0" />
+  <!-- etc -->
+  <property name="build.dir" value="bin\${build.configuration}" />
+  <property name="artifact.dir" value="artifact" />
+  <property name="reports.dir" value="${artifact.dir}\reports" />
+  <!-- tools -->
+  <property name="msbuildpath" value="C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe" />
+  <property name="mstestpath" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe" />
+
+  <!-- set correct pathes automatically -->
+  <if test="${file::exists('.nuget\packages.config')}">
+    <xmlpeek file=".nuget\packages.config" xpath="/packages/package[@id='OpenCover']/@version" property="opencover.version" />
+    <xmlpeek file=".nuget\packages.config" xpath="/packages/package[@id='ReportGenerator']/@version" property="reportgenerator.version" />
+    <property name="opencover.dir" value="packages\OpenCover.${opencover.version}" />
+    <property name="reportgenerator.dir" value="packages\ReportGenerator.${reportgenerator.version}" />
+  </if>
+  
+  <!-- download nuget packages -->
+  <exec program=".nuget\nuget.exe" if="${file::exists(solutionfile) and file::exists('.nuget\nuget.exe')}">
+    <arg line="restore ${solutionfile}" />
+  </exec>
+ 
+  <!-- - - - - -->
+  <!-- Targets -->
+  <!-- - - - - -->
+  <target name="compile" description="compiles the solution">
+    <property name="compile.codeanalysis" value="false" overwrite="false" />
+    <property name="compile.webdeploy" value="false" overwrite="false" />
+    <echo message="Erstelle ${solutionfile} - Configuration=${build.configuration}, CodeAnalysis=${compile.codeanalysis}, WebDeploy=${compile.webdeploy}" />
+    <exec program="${msbuildpath}">
+      <arg value='"${solutionfile}"' />
+      <arg value="/p:Configuration=${build.configuration}" />
+      <arg value="/p:RunCodeAnalysis=${compile.codeanalysis}" />
+      <arg value="/target:Rebuild" />
+      <arg value="/verbosity:${msbuild.verbosity}" />
+      <arg value="/maxcpucount" />
+      <arg value="/nr:false" />
+      <arg value="/nologo" />
+    </exec>
+  </target>
+  
+  <!-- tests every configured assembly -->
+  <target name="test" description="tests every configured assembly">    
+    <!-- the reports will be stored in this directory -->
+    <property name="output.dir" value="${reports.dir}\testcoverage" />
+
+    <!-- clean up -->
+    <delete dir="${output.dir}" if="${directory::exists('${output.dir}')}"/>
+    <mkdir dir="${output.dir}" />    
+    <!-- testing the first dll -->    
+    <property name="unittestdll" value="MSTestReport.Tests\bin\${build.configuration}\MSTestReport.Tests.dll" />
+    <echo message="Testing: ${unittestdll}" />
+    <call target="test.dll" />  
+    <!-- testing the second dll -->
+    <property name="unittestdll" value="MSTestReport.Additional.Tests\bin\${build.configuration}\MSTestReport.Additional.Tests.dll" />
+    <echo message="Testing: ${unittestdll}" />
+    <call target="test.dll" />  
+    <call target="generate.report" />
+  </target>
+
+<!-- calls opencover and merges all results in one file: coverage.xml -->
+<target name="test.dll">
+  <exec program="${opencover.dir}/tools/OpenCover.Console.exe">
+    <arg value="-register:user" />
+    <arg value="-returntargetcode" />
+    <arg value="-target:${mstestpath}" />
+    <arg value="-targetargs:&quot;${unittestdll}&quot; /Logger:trx" />
+    <arg value="-filter:+[*]* -[Tests*]*" />
+    <arg value="-hideskipped:All" />
+    <arg value="-output:${output.dir}/coverage.xml" />
+    <arg value="-mergeoutput" />
+    <arg value="-log:Info" />
+  </exec>
+</target>
+    
+<!-- generates the report with help of ReportGenerator.exe -->
+<target name="generate.report">
+  <exec program="${reportgenerator.dir}/tools/ReportGenerator.exe" verbose="true">
+    <arg value="-reports:${output.dir}/coverage.xml" />
+    <arg value="-targetdir:${output.dir}" />
+  </exec>
+</target>
+</project>

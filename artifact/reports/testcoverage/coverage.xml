@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="138" visitedSequencePoints="108" numBranchPoints="41" visitedBranchPoints="26" sequenceCoverage="78.26" branchCoverage="63.41" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="19" numClasses="28" visitedMethods="26" numMethods="41" />
+  <Modules>
+    <Module hash="FF-66-23-4C-FD-BF-90-62-03-78-47-3E-34-BF-91-1C-B3-F6-C7-E8">
+      <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+      <FullName>C:\workspace\azuretests\MSTestReport\MSTestReport.Tests\bin\Debug\MSTestReport.Tests.dll</FullName>
+      <ModuleName>MSTestReport.Tests</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport.Tests\UnitTest1.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>MSTestReport.Tests.UnitTest1</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Tests.UnitTest1::TestMethod1()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="2" ordinal="1" offset="1" sl="12" sc="13" el="12" ec="35" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="3" ordinal="2" offset="9" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Tests.UnitTest1::CanAdd()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="4" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="5" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="23" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="6" ordinal="2" offset="3" sl="19" sc="13" el="19" ec="23" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="7" ordinal="3" offset="5" sl="20" sc="13" el="20" ec="57" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="8" ordinal="4" offset="11" sl="21" sc="13" el="21" ec="40" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="9" ordinal="5" offset="20" sl="22" sc="13" el="22" ec="40" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="10" ordinal="6" offset="30" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="4" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void MSTestReport.Tests.UnitTest1::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="11" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="56-2A-03-26-5F-89-FC-07-15-EE-2A-EC-F1-BC-30-98-F6-17-DA-80">
+      <Summary numSequencePoints="5" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="60" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="2" visitedMethods="1" numMethods="2" />
+      <FullName>C:\workspace\azuretests\MSTestReport\MSTestReport.Tests\bin\Debug\MSTestReport.exe</FullName>
+      <ModuleName>MSTestReport</ModuleName>
+      <Files>
+        <File uid="3" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport\Program.cs" />
+        <File uid="4" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport\SampleTestClass.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MSTestReport.Program</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Program::Main(System.String[])</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="12" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="13" ordinal="1" offset="1" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="12" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Program::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="14" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>MSTestReport.SampleTestClass</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Int32 MSTestReport.SampleTestClass::add(System.Int32,System.Int32)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="15" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="16" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="26" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="17" ordinal="2" offset="7" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="15" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void MSTestReport.SampleTestClass::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="18" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="41-19-F4-F1-8D-21-3E-1B-07-08-3A-70-1F-6C-BC-99-62-A4-5B-29">
+      <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+      <FullName>C:\workspace\azuretests\MSTestReport\MSTestReport.Tests\bin\Debug\MSTestReport.Tests.dll</FullName>
+      <ModuleName>MSTestReport.Tests</ModuleName>
+      <Files>
+        <File uid="5" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport.Tests\UnitTest1.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>MSTestReport.Tests.UnitTest1</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Tests.UnitTest1::TestMethod1()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="19" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="20" ordinal="1" offset="1" sl="12" sc="13" el="12" ec="35" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="21" ordinal="2" offset="9" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="19" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Tests.UnitTest1::CanAdd()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="22" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="23" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="23" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="24" ordinal="2" offset="3" sl="19" sc="13" el="19" ec="23" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="25" ordinal="3" offset="5" sl="20" sc="13" el="20" ec="57" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="26" ordinal="4" offset="11" sl="21" sc="13" el="21" ec="40" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="27" ordinal="5" offset="20" sl="22" sc="13" el="22" ec="40" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="28" ordinal="6" offset="30" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="22" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void MSTestReport.Tests.UnitTest1::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="29" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="07-7E-98-02-0E-EE-D8-1F-6E-4A-E9-39-92-55-90-0F-D9-55-AF-76">
+      <Summary numSequencePoints="5" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="60" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="2" visitedMethods="1" numMethods="2" />
+      <FullName>C:\workspace\azuretests\MSTestReport\MSTestReport.Tests\bin\Debug\MSTestReport.exe</FullName>
+      <ModuleName>MSTestReport</ModuleName>
+      <Files>
+        <File uid="7" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport\Program.cs" />
+        <File uid="8" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport\SampleTestClass.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MSTestReport.Program</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Program::Main(System.String[])</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="30" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="31" ordinal="1" offset="1" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="30" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Program::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="32" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>MSTestReport.SampleTestClass</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Int32 MSTestReport.SampleTestClass::add(System.Int32,System.Int32)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="33" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="34" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="26" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="35" ordinal="2" offset="7" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="33" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="8" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void MSTestReport.SampleTestClass::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="36" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="41-19-F4-F1-8D-21-3E-1B-07-08-3A-70-1F-6C-BC-99-62-A4-5B-29">
+      <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+      <FullName>C:\workspace\azuretests\MSTestReport\MSTestReport.Tests\bin\Debug\MSTestReport.Tests.dll</FullName>
+      <ModuleName>MSTestReport.Tests</ModuleName>
+      <Files>
+        <File uid="9" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport.Tests\UnitTest1.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>MSTestReport.Tests.UnitTest1</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Tests.UnitTest1::TestMethod1()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="37" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="38" ordinal="1" offset="1" sl="12" sc="13" el="12" ec="35" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="39" ordinal="2" offset="9" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="37" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Tests.UnitTest1::CanAdd()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="40" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="41" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="23" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="42" ordinal="2" offset="3" sl="19" sc="13" el="19" ec="23" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="43" ordinal="3" offset="5" sl="20" sc="13" el="20" ec="57" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="44" ordinal="4" offset="11" sl="21" sc="13" el="21" ec="40" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="45" ordinal="5" offset="20" sl="22" sc="13" el="22" ec="40" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="46" ordinal="6" offset="30" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="40" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void MSTestReport.Tests.UnitTest1::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="47" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="07-7E-98-02-0E-EE-D8-1F-6E-4A-E9-39-92-55-90-0F-D9-55-AF-76">
+      <Summary numSequencePoints="5" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="60" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="2" visitedMethods="1" numMethods="2" />
+      <FullName>C:\workspace\azuretests\MSTestReport\MSTestReport.Tests\bin\Debug\MSTestReport.exe</FullName>
+      <ModuleName>MSTestReport</ModuleName>
+      <Files>
+        <File uid="11" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport\Program.cs" />
+        <File uid="12" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport\SampleTestClass.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MSTestReport.Program</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Program::Main(System.String[])</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="48" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="49" ordinal="1" offset="1" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="48" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="11" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Program::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="50" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>MSTestReport.SampleTestClass</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Int32 MSTestReport.SampleTestClass::add(System.Int32,System.Int32)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="51" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="52" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="26" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="53" ordinal="2" offset="7" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="51" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void MSTestReport.SampleTestClass::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="54" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="AF-D0-47-E5-F1-90-B8-E2-E9-8C-2E-B1-FC-A9-90-B3-5D-7A-00-BF">
+      <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+      <FullName>C:\workspace\azuretests\MSTestReport\MSTestReport.Additional.Tests\bin\Debug\MSTestReport.Additional.Tests.dll</FullName>
+      <ModuleName>MSTestReport.Additional.Tests</ModuleName>
+      <Files>
+        <File uid="13" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport.Additional.Tests\UnitTest1.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>MSTestReport.Additional.Tests.UnitTest1</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Additional.Tests.UnitTest1::TestMethod1()</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="55" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="56" ordinal="1" offset="1" sl="12" sc="13" el="12" ec="35" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="57" ordinal="2" offset="9" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="55" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="13" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Additional.Tests.UnitTest1::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="58" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="55-E4-8D-00-A6-24-CA-2D-2A-2D-B0-A3-CB-15-43-40-3D-B6-38-37">
+      <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+      <FullName>C:\workspace\azuretests\MSTestReport\MSTestReport.Tests\bin\Debug\MSTestReport.Tests.dll</FullName>
+      <ModuleName>MSTestReport.Tests</ModuleName>
+      <Files>
+        <File uid="14" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport.Tests\UnitTest1.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>MSTestReport.Tests.UnitTest1</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Tests.UnitTest1::TestMethod1()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="59" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="1" uspid="60" ordinal="1" offset="1" sl="12" sc="13" el="12" ec="35" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="1" uspid="61" ordinal="2" offset="9" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="59" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="14" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Tests.UnitTest1::CanAdd()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="62" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="1" uspid="63" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="23" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="1" uspid="64" ordinal="2" offset="3" sl="19" sc="13" el="19" ec="23" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="1" uspid="65" ordinal="3" offset="5" sl="20" sc="13" el="20" ec="57" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="1" uspid="66" ordinal="4" offset="11" sl="21" sc="13" el="21" ec="40" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="1" uspid="67" ordinal="5" offset="20" sl="22" sc="13" el="22" ec="40" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="1" uspid="68" ordinal="6" offset="30" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="62" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="14" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void MSTestReport.Tests.UnitTest1::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="69" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="2C-4C-5C-DB-D0-C0-E1-EF-B4-3F-5F-CB-A8-1E-D7-0B-91-C9-6A-47">
+      <Summary numSequencePoints="8" visitedSequencePoints="3" numBranchPoints="3" visitedBranchPoints="1" sequenceCoverage="37.5" branchCoverage="33.33" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="2" visitedMethods="1" numMethods="3" />
+      <FullName>C:\workspace\azuretests\MSTestReport\MSTestReport.Tests\bin\Debug\MSTestReport.exe</FullName>
+      <ModuleName>MSTestReport</ModuleName>
+      <Files>
+        <File uid="16" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport\Program.cs" />
+        <File uid="17" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport\SampleTestClass.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MSTestReport.Program</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Program::Main(System.String[])</Name>
+              <FileRef uid="16" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="70" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="71" ordinal="1" offset="1" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="16" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="70" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="16" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Program::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="72" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="50" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="2" />
+          <FullName>MSTestReport.SampleTestClass</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Int32 MSTestReport.SampleTestClass::add(System.Int32,System.Int32)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="73" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="74" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="26" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="75" ordinal="2" offset="7" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="73" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="17" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Int32 MSTestReport.SampleTestClass::substract(System.Int32,System.Int32)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="76" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="77" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="26" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="78" ordinal="2" offset="7" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="76" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="17" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void MSTestReport.SampleTestClass::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="79" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="1E-8B-1B-B7-66-5A-E5-40-A5-63-D2-B5-D3-A2-67-F4-0E-AF-88-EF">
+      <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+      <FullName>C:\workspace\azuretests\MSTestReport\MSTestReport.Additional.Tests\bin\Debug\MSTestReport.Additional.Tests.dll</FullName>
+      <ModuleName>MSTestReport.Additional.Tests</ModuleName>
+      <Files>
+        <File uid="18" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport.Additional.Tests\UnitTest1.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>MSTestReport.Additional.Tests.UnitTest1</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Additional.Tests.UnitTest1::TestMethod1()</Name>
+              <FileRef uid="18" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="80" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="1" uspid="81" ordinal="1" offset="1" sl="12" sc="13" el="12" ec="35" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="1" uspid="82" ordinal="2" offset="9" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="18" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="80" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Additional.Tests.UnitTest1::TwoMinusTwoReturnsZero()</Name>
+              <FileRef uid="18" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="83" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="1" uspid="84" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="57" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="1" uspid="85" ordinal="2" offset="7" sl="19" sc="13" el="19" ec="23" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="1" uspid="86" ordinal="3" offset="9" sl="20" sc="13" el="20" ec="23" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="1" uspid="87" ordinal="4" offset="11" sl="21" sc="13" el="21" ec="46" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="1" uspid="88" ordinal="5" offset="20" sl="22" sc="13" el="22" ec="40" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="1" uspid="89" ordinal="6" offset="28" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="18" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="83" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void MSTestReport.Additional.Tests.UnitTest1::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="90" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="2C-4C-5C-DB-D0-C0-E1-EF-B4-3F-5F-CB-A8-1E-D7-0B-91-C9-6A-47">
+      <Summary numSequencePoints="8" visitedSequencePoints="3" numBranchPoints="3" visitedBranchPoints="1" sequenceCoverage="37.5" branchCoverage="33.33" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="2" visitedMethods="1" numMethods="3" />
+      <FullName>C:\workspace\azuretests\MSTestReport\MSTestReport.Additional.Tests\bin\Debug\MSTestReport.exe</FullName>
+      <ModuleName>MSTestReport</ModuleName>
+      <Files>
+        <File uid="20" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport\Program.cs" />
+        <File uid="21" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport\SampleTestClass.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MSTestReport.Program</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Program::Main(System.String[])</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="91" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="92" ordinal="1" offset="1" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="91" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="20" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Program::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="93" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="50" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="2" />
+          <FullName>MSTestReport.SampleTestClass</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Int32 MSTestReport.SampleTestClass::add(System.Int32,System.Int32)</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="94" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="95" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="26" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="96" ordinal="2" offset="7" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="94" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="21" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Int32 MSTestReport.SampleTestClass::substract(System.Int32,System.Int32)</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="97" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="1" uspid="98" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="26" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="1" uspid="99" ordinal="2" offset="7" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="97" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="21" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void MSTestReport.SampleTestClass::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="100" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="55-E4-8D-00-A6-24-CA-2D-2A-2D-B0-A3-CB-15-43-40-3D-B6-38-37">
+      <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+      <FullName>C:\workspace\azuretests\MSTestReport\MSTestReport.Tests\bin\Debug\MSTestReport.Tests.dll</FullName>
+      <ModuleName>MSTestReport.Tests</ModuleName>
+      <Files>
+        <File uid="22" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport.Tests\UnitTest1.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>MSTestReport.Tests.UnitTest1</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Tests.UnitTest1::TestMethod1()</Name>
+              <FileRef uid="22" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="101" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="22" />
+                <SequencePoint vc="1" uspid="102" ordinal="1" offset="1" sl="12" sc="13" el="12" ec="35" bec="0" bev="0" fileid="22" />
+                <SequencePoint vc="1" uspid="103" ordinal="2" offset="9" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="22" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="101" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="22" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Tests.UnitTest1::CanAdd()</Name>
+              <FileRef uid="22" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="104" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="22" />
+                <SequencePoint vc="1" uspid="105" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="23" bec="0" bev="0" fileid="22" />
+                <SequencePoint vc="1" uspid="106" ordinal="2" offset="3" sl="19" sc="13" el="19" ec="23" bec="0" bev="0" fileid="22" />
+                <SequencePoint vc="1" uspid="107" ordinal="3" offset="5" sl="20" sc="13" el="20" ec="57" bec="0" bev="0" fileid="22" />
+                <SequencePoint vc="1" uspid="108" ordinal="4" offset="11" sl="21" sc="13" el="21" ec="40" bec="0" bev="0" fileid="22" />
+                <SequencePoint vc="1" uspid="109" ordinal="5" offset="20" sl="22" sc="13" el="22" ec="40" bec="0" bev="0" fileid="22" />
+                <SequencePoint vc="1" uspid="110" ordinal="6" offset="30" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="22" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="104" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="22" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void MSTestReport.Tests.UnitTest1::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="111" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="2C-4C-5C-DB-D0-C0-E1-EF-B4-3F-5F-CB-A8-1E-D7-0B-91-C9-6A-47">
+      <Summary numSequencePoints="8" visitedSequencePoints="3" numBranchPoints="3" visitedBranchPoints="1" sequenceCoverage="37.5" branchCoverage="33.33" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="2" visitedMethods="1" numMethods="3" />
+      <FullName>C:\workspace\azuretests\MSTestReport\MSTestReport.Tests\bin\Debug\MSTestReport.exe</FullName>
+      <ModuleName>MSTestReport</ModuleName>
+      <Files>
+        <File uid="24" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport\Program.cs" />
+        <File uid="25" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport\SampleTestClass.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MSTestReport.Program</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Program::Main(System.String[])</Name>
+              <FileRef uid="24" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="112" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="0" uspid="113" ordinal="1" offset="1" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="24" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="112" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="24" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Program::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="114" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="50" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="2" />
+          <FullName>MSTestReport.SampleTestClass</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Int32 MSTestReport.SampleTestClass::add(System.Int32,System.Int32)</Name>
+              <FileRef uid="25" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="115" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="116" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="26" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="117" ordinal="2" offset="7" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="25" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="115" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="25" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Int32 MSTestReport.SampleTestClass::substract(System.Int32,System.Int32)</Name>
+              <FileRef uid="25" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="118" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="0" uspid="119" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="26" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="0" uspid="120" ordinal="2" offset="7" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="25" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="118" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="25" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void MSTestReport.SampleTestClass::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="121" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="1E-8B-1B-B7-66-5A-E5-40-A5-63-D2-B5-D3-A2-67-F4-0E-AF-88-EF">
+      <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+      <FullName>C:\workspace\azuretests\MSTestReport\MSTestReport.Additional.Tests\bin\Debug\MSTestReport.Additional.Tests.dll</FullName>
+      <ModuleName>MSTestReport.Additional.Tests</ModuleName>
+      <Files>
+        <File uid="26" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport.Additional.Tests\UnitTest1.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>MSTestReport.Additional.Tests.UnitTest1</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Additional.Tests.UnitTest1::TestMethod1()</Name>
+              <FileRef uid="26" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="122" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="123" ordinal="1" offset="1" sl="12" sc="13" el="12" ec="35" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="124" ordinal="2" offset="9" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="26" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="122" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="26" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Additional.Tests.UnitTest1::TwoMinusTwoReturnsZero()</Name>
+              <FileRef uid="26" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="125" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="126" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="57" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="127" ordinal="2" offset="7" sl="19" sc="13" el="19" ec="23" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="128" ordinal="3" offset="9" sl="20" sc="13" el="20" ec="23" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="129" ordinal="4" offset="11" sl="21" sc="13" el="21" ec="46" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="130" ordinal="5" offset="20" sl="22" sc="13" el="22" ec="40" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="131" ordinal="6" offset="28" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="26" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="125" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="26" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void MSTestReport.Additional.Tests.UnitTest1::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="132" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="2C-4C-5C-DB-D0-C0-E1-EF-B4-3F-5F-CB-A8-1E-D7-0B-91-C9-6A-47">
+      <Summary numSequencePoints="8" visitedSequencePoints="3" numBranchPoints="3" visitedBranchPoints="1" sequenceCoverage="37.5" branchCoverage="33.33" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="2" visitedMethods="1" numMethods="3" />
+      <FullName>C:\workspace\azuretests\MSTestReport\MSTestReport.Additional.Tests\bin\Debug\MSTestReport.exe</FullName>
+      <ModuleName>MSTestReport</ModuleName>
+      <Files>
+        <File uid="28" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport\Program.cs" />
+        <File uid="29" fullPath="C:\workspace\azuretests\MSTestReport\MSTestReport\SampleTestClass.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MSTestReport.Program</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Program::Main(System.String[])</Name>
+              <FileRef uid="28" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="133" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="28" />
+                <SequencePoint vc="0" uspid="134" ordinal="1" offset="1" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="28" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="133" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="28" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Program::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="135" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="50" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="2" />
+          <FullName>MSTestReport.SampleTestClass</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Int32 MSTestReport.SampleTestClass::add(System.Int32,System.Int32)</Name>
+              <FileRef uid="29" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="136" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="29" />
+                <SequencePoint vc="0" uspid="137" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="26" bec="0" bev="0" fileid="29" />
+                <SequencePoint vc="0" uspid="138" ordinal="2" offset="7" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="29" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="136" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="29" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Int32 MSTestReport.SampleTestClass::substract(System.Int32,System.Int32)</Name>
+              <FileRef uid="29" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="139" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="29" />
+                <SequencePoint vc="1" uspid="140" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="26" bec="0" bev="0" fileid="29" />
+                <SequencePoint vc="1" uspid="141" ordinal="2" offset="7" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="29" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="139" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="29" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void MSTestReport.SampleTestClass::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="142" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="E1-42-ED-A2-94-92-AE-B4-2B-8E-62-68-91-6B-D4-60-04-86-66-89">
+      <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+      <FullName>C:\workspace\mstestopencover\MSTestReport.Tests\bin\Release\MSTestReport.Tests.dll</FullName>
+      <ModuleName>MSTestReport.Tests</ModuleName>
+      <Files>
+        <File uid="30" fullPath="C:\workspace\mstestopencover\MSTestReport.Tests\AdditionTests.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>MSTestReport.Tests.AdditionTests</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Tests.AdditionTests::CanAdd()</Name>
+              <FileRef uid="30" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="143" ordinal="0" offset="0" sl="12" sc="13" el="12" ec="23" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="1" uspid="144" ordinal="1" offset="2" sl="13" sc="13" el="13" ec="23" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="1" uspid="145" ordinal="2" offset="4" sl="14" sc="13" el="14" ec="47" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="1" uspid="146" ordinal="3" offset="9" sl="15" sc="13" el="15" ec="40" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="1" uspid="147" ordinal="4" offset="16" sl="16" sc="13" el="16" ec="40" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="1" uspid="148" ordinal="5" offset="22" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="30" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="143" ordinal="0" offset="0" sl="12" sc="13" el="12" ec="23" bec="0" bev="0" fileid="30" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Tests.AdditionTests::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="149" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="BC-63-61-2B-9F-4D-A6-43-0C-9F-4A-BC-14-42-00-AD-E0-63-71-3E">
+      <Summary numSequencePoints="3" visitedSequencePoints="1" numBranchPoints="3" visitedBranchPoints="1" sequenceCoverage="33.33" branchCoverage="33.33" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="2" visitedMethods="1" numMethods="3" />
+      <FullName>C:\workspace\mstestopencover\MSTestReport.Tests\bin\Release\MSTestReport.exe</FullName>
+      <ModuleName>MSTestReport</ModuleName>
+      <Files>
+        <File uid="32" fullPath="C:\workspace\mstestopencover\MSTestReport\Program.cs" />
+        <File uid="33" fullPath="C:\workspace\mstestopencover\MSTestReport\Calculator.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MSTestReport.Program</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Program::Main(System.String[])</Name>
+              <FileRef uid="32" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="150" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="32" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="150" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="32" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Program::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="151" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="1" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="50" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="2" />
+          <FullName>MSTestReport.Calculator</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Int32 MSTestReport.Calculator::add(System.Int32,System.Int32)</Name>
+              <FileRef uid="33" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="152" ordinal="0" offset="0" sl="13" sc="13" el="13" ec="26" bec="0" bev="0" fileid="33" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="152" ordinal="0" offset="0" sl="13" sc="13" el="13" ec="26" bec="0" bev="0" fileid="33" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Int32 MSTestReport.Calculator::substract(System.Int32,System.Int32)</Name>
+              <FileRef uid="33" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="153" ordinal="0" offset="0" sl="18" sc="13" el="18" ec="26" bec="0" bev="0" fileid="33" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="153" ordinal="0" offset="0" sl="18" sc="13" el="18" ec="26" bec="0" bev="0" fileid="33" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void MSTestReport.Calculator::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="154" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="59-32-CE-92-24-E4-3F-89-5E-F8-7D-68-41-4B-11-20-5D-44-9D-94">
+      <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+      <FullName>C:\workspace\mstestopencover\MSTestReport.Additional.Tests\bin\Release\MSTestReport.Additional.Tests.dll</FullName>
+      <ModuleName>MSTestReport.Additional.Tests</ModuleName>
+      <Files>
+        <File uid="34" fullPath="C:\workspace\mstestopencover\MSTestReport.Additional.Tests\SubstractionTests.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>MSTestReport.Additional.Tests.SubstractionTests</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Additional.Tests.SubstractionTests::TwoMinusTwoReturnsZero()</Name>
+              <FileRef uid="34" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="155" ordinal="0" offset="0" sl="12" sc="13" el="12" ec="47" bec="0" bev="0" fileid="34" />
+                <SequencePoint vc="1" uspid="156" ordinal="1" offset="5" sl="13" sc="13" el="13" ec="23" bec="0" bev="0" fileid="34" />
+                <SequencePoint vc="1" uspid="157" ordinal="2" offset="7" sl="14" sc="13" el="14" ec="23" bec="0" bev="0" fileid="34" />
+                <SequencePoint vc="1" uspid="158" ordinal="3" offset="9" sl="15" sc="13" el="15" ec="46" bec="0" bev="0" fileid="34" />
+                <SequencePoint vc="1" uspid="159" ordinal="4" offset="16" sl="16" sc="13" el="16" ec="40" bec="0" bev="0" fileid="34" />
+                <SequencePoint vc="1" uspid="160" ordinal="5" offset="22" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="34" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="155" ordinal="0" offset="0" sl="12" sc="13" el="12" ec="47" bec="0" bev="0" fileid="34" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Additional.Tests.SubstractionTests::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="161" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="BC-63-61-2B-9F-4D-A6-43-0C-9F-4A-BC-14-42-00-AD-E0-63-71-3E">
+      <Summary numSequencePoints="3" visitedSequencePoints="1" numBranchPoints="3" visitedBranchPoints="1" sequenceCoverage="33.33" branchCoverage="33.33" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="2" visitedMethods="1" numMethods="3" />
+      <FullName>C:\workspace\mstestopencover\MSTestReport.Additional.Tests\bin\Release\MSTestReport.exe</FullName>
+      <ModuleName>MSTestReport</ModuleName>
+      <Files>
+        <File uid="36" fullPath="C:\workspace\mstestopencover\MSTestReport\Program.cs" />
+        <File uid="37" fullPath="C:\workspace\mstestopencover\MSTestReport\Calculator.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MSTestReport.Program</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MSTestReport.Program::Main(System.String[])</Name>
+              <FileRef uid="36" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="162" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="36" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="162" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="36" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MSTestReport.Program::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="163" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="1" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="50" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="2" />
+          <FullName>MSTestReport.Calculator</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Int32 MSTestReport.Calculator::add(System.Int32,System.Int32)</Name>
+              <FileRef uid="37" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="164" ordinal="0" offset="0" sl="13" sc="13" el="13" ec="26" bec="0" bev="0" fileid="37" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="164" ordinal="0" offset="0" sl="13" sc="13" el="13" ec="26" bec="0" bev="0" fileid="37" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Int32 MSTestReport.Calculator::substract(System.Int32,System.Int32)</Name>
+              <FileRef uid="37" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="165" ordinal="0" offset="0" sl="18" sc="13" el="18" ec="26" bec="0" bev="0" fileid="37" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="165" ordinal="0" offset="0" sl="18" sc="13" el="18" ec="26" bec="0" bev="0" fileid="37" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void MSTestReport.Calculator::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="166" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
