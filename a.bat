@@ -1,1 +1,1 @@
-call C:\sonar-runner-2.4\bin\sonar-runner.bat
+D:\Software\OpenCover\OpenCover.Console.exe -register:user\ -target:D:\Neha\Practtice-Proj\mstestopencover-master\mstestopencover-master\b.bat -output:"C:\cover.xml"
